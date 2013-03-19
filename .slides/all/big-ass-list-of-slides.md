@@ -19,6 +19,7 @@
 
 !SLIDE center
 ## Almost an iOS developer for 5+ years
+<img src="underconstruction.gif">
 
 !SLIDE center
 # Xcode
@@ -51,7 +52,8 @@
 
 !SLIDE center
 # PhoneGap
-### ugh
+<img src="whichone.jpg">
+
 .notes replicated native look and feel, slow
 
 !SLIDE center
@@ -77,6 +79,9 @@
 ## Ruby for iOS
 ### Laurent Sansonetti (HipByte)
 ### 2012 - present
+
+#### <a href="http://www.cornify.com" class="blink" onclick="cornify_add();return false;">Don't Click Me!</a>
+
 .notes fork of MacRuby
 
 !SLIDE bullets center
@@ -89,8 +94,7 @@
 !SLIDE center
 ## Ruby 1.9 syntax...for the most part
 
-.notes fork of MacRuby
-!SLIDE code
+!SLIDE
     @@@ ruby
     def methodName(arg1, withNamed: arg2)
     end
@@ -124,10 +128,10 @@
 ## but first...
 
 !SLIDE center
-# __$200?!?!?!?__
+<img src="android.jpg">
 
 !SLIDE code
-    $ motion create tweeter
+    $ motion create demo
 .notes show rake, rake config, appdelegate
 
 !SLIDE center
@@ -139,6 +143,20 @@
 ### docs
 ### dash
 .notes the sdk is not hidden from you, documentation reading
+
+!SLIDE center
+# RubyGems
+### Remember that no `require` thing?
+
+!SLIDE
+# Bundler
+### Add to Rakefile...
+    @@@ ruby
+    require 'bundler'
+    Bundler.require
+
+!SLIDE center
+## [http://rubymotion-wrappers.com/](http://rubymotion-wrappers.com/)
 
 !SLIDE center
 # IB
@@ -154,20 +172,6 @@
     V:|-10-[sprint_label]-10-[starts_label(==height)]-|
     V:|-10-[sprint_label]-10-[separator_label(==height)]-|
     V:|-10-[sprint_label]-10-[ends_label(==height)]-|
-
-!SLIDE center
-# RubyGems
-### Remember that no `require` thing?
-
-!SLIDE
-# Bundler
-### Add to Rakefile...
-    @@@ ruby
-    require 'bundler'
-    Bundler.require
-
-!SLIDE center
-## [http://rubymotion-wrappers.com/](http://rubymotion-wrappers.com/)
 
 !SLIDE
 # BubbleWrap
@@ -203,8 +207,16 @@
 
 !SLIDE center
 # testin
+### http://www.rubymotion.com/developer-center/articles/testing/
+
+!SLIDE center
+<img src="frank.jpg">
 
 !SLIDE center bullets
 * [http://rubymotion.com](http://rubymotion.com)
 * [http://rubymotion-tutorial.com](http://rubymotion-tutorial.com)
 * iOS Programming: The Big Nerd Ranch Guide
+
+!SLIDE center
+<img src="done.gif">
+
